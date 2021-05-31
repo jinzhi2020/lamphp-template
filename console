@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+
+<?php
+
+use Lamp\App;
+
+require __DIR__ . '/vendor/autoload.php';
+
+// 定义根目录常量
+const ROOT = __DIR__ . DIRECTORY_SEPARATOR;
+
+App::getConsole(ROOT)->run();
